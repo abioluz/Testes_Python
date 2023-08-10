@@ -1,4 +1,4 @@
 from calculadora import soma
 
 
-print(soma('15.5',15))
+print(soma(15, 15))
