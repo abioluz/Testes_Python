@@ -1,7 +1,7 @@
 '''
-O Doctest onde os testes são escritos no docstring e 
+O Doctest onde os testes são escritos no docstring e
 depois executado.
-Acredito que se a função for sucinta vale a pena colocar 
+Acredito que se a função for sucinta vale a pena colocar
 ou usar enquanto programa para não se perder.
 
 '''
