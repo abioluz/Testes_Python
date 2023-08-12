@@ -5,7 +5,20 @@ Acredito que se a função for sucinta vale a pena colocar
 ou usar enquanto programa para não se perder.
 
 '''
+try:
+    import sys
+    import os
 
+    sys.path.append(
+        os.path.abspath(
+            os.path.join(
+                os.path.dirname(__file__),
+                '../src'
+            )
+        )
+    )
+except:
+    raise
 
 def soma(x, y):
     '''Soma x e Y no Doctests
